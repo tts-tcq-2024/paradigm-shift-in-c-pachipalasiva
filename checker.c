@@ -13,7 +13,7 @@ bool is_charge_rate_out_of_range(float charge_rate) {
     return charge_rate > 0.8;
 }
 
-bool battery_is_ok(float temperature, float soc, float charge_rate) {
+bool batteryIsOk(float temperature, float soc, float charge_rate) {
     return !(is_temperature_out_of_range(temperature) || is_soc_out_of_range(soc) || is_charge_rate_out_of_range(charge_rate));
 }
 
