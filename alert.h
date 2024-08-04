@@ -1,5 +1,5 @@
 // alert.h
 
-void canShowAlert(float chargeRate);
+void showAlert(float chargeRate);
 
 #endif // CHARGE_RATE_H
