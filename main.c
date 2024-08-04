@@ -1,14 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
- #include "alert.h"
-
-int checktemprange(float temperature) {   //checking temperature in range or not
-  if(temperature < 0 || temperature > 45) {
-    printf("Temperature out of range!\n");
-    return 0;
-  }
-  return 1;
-}
+#include "alert.h"
  
 int checkchargerate(float chargeRate) {   //checking chargerate in range or not
   if(chargeRate > 0.8) {
