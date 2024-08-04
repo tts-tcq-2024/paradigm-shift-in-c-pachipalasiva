@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
- #include <alert.h>
+ #include "alert.h"
 
 int checktemprange(float temperature) {   //checking temperature in range or not
   if(temperature < 0 || temperature > 45) {
