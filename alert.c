@@ -1,7 +1,7 @@
 #include "alert.h"
 
 
-void canShowAlert(float rate) {
+void showAlert(float rate) {
 if (rate >= 20 && rate <==24) {
     printf("Warning: Approaching discharge");
 } else if (rate >=76 and rate <= 80) {
