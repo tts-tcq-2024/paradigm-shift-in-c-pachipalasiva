@@ -10,14 +10,6 @@ int checktemprange(float temperature) {   //checking temperature in range or not
   return 1;
 }
  
-int checksoc(float soc) {   // checking soc in range or not
-  if(soc < 20 || soc > 80) {
-    printf("State of Charge out of range!\n");
-    return 0;
-  }
-  return 1;
-}
- 
 int checkchargerate(float chargeRate) {   //checking chargerate in range or not
   if(chargeRate > 0.8) {
     printf("Charge Rate out of range!\n");
