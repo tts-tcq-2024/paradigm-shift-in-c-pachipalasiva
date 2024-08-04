@@ -6,3 +6,7 @@ int checktemprange(float temperature) {   //checking temperature in range or not
   }
   return 1;
 }
+
+  
+
+
