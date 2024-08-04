@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "alert.h"
+#include "TemperatureCheck.h"
  
 int checkchargerate(float chargeRate) {   //checking chargerate in range or not
   if(chargeRate > 0.8) {
