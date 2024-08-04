@@ -1,1 +1,1 @@
-#include "TemperatureCheck.h"
+void checktemp(float temp);
