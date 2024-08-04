@@ -1,0 +1,1 @@
+int checktemprange(float temp);
