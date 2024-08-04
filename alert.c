@@ -7,11 +7,11 @@ void approchingDischart(float rate) {
 
 
 void approchingPeak(float rate) {
-    if(rate >=76 && rate <= 80) {
+    if(rate >=76 && rate <= 80) 
         printf("Warning: Approaching charge_peak");
 }
 void showAlert(float rate) {
 approchingDischart(rate);
 approchingPeak(rate);
 }
-}
+
