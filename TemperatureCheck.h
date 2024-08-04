@@ -1,1 +1,1 @@
-void checktemp(float temp);
+void checktemprange(float temp);
